@@ -7,8 +7,8 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                // "${file}", // 编译当前文件
-                "*.c", // 编译当前目录下的所有.c文件
+                "${file}", // 编译当前文件
+                // "*.c", // 编译当前目录下的所有.c文件
                 "-o",
                 "${fileDirname}\\a.exe"  // 输出到当前目录下的a.exe
             ],
